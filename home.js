@@ -38,6 +38,7 @@ function onConnect() {
     let s = "{time:" + new Date().Format("yyyy-MM-dd hh:mm:ss") + ", onConnected()}";
     console.log(s);
     client.subscribe(topic);
+    document.getElementById("rec_msg").value = "连接成功";
 }
 
 client.onConnectionLost = onConnectionLost;
@@ -58,10 +59,17 @@ function onConnectionLost(responseObject) {
 
 function onMessageArrived(message) {
     let s = "{time:" + new Date().Format("yyyy-MM-dd hh:mm:ss") + ", onMessageArrived()}";
+    let rec_msg  =message.payloadString;
     console.log(s);
     console.log("收到消息:" + message.payloadString);
+    decode(rec_msg);
 }
+function decode(message) {
+    const rec_code = JSON.parse(message);
+    const code = rec_code.code;
+    document.getElementById("rec_msg").value = code;
 
+}
 function send() {
     //从文本框获取数据
     let s = document.getElementById("msg").value;

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb30d48-4951-4452-bf6d-e0e2ed847fcc" name="Default Changelist" comment="" />
+    <list default="true" id="8fb30d48-4951-4452-bf6d-e0e2ed847fcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/home.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +34,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j2DLXBlnxG2ECUFPpZT3XvNRAl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -37,14 +67,24 @@
     <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/well_lid/main.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/well_lid/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/home.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.a.html" />
       <item itemvalue="JavaScript Debug.main.html" />
       <item itemvalue="JavaScript Debug.home.html" />
+      <item itemvalue="JavaScript Debug.test.html" />
+      <item itemvalue="Node.js.home.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="Node.js.home.js" />
         <item itemvalue="JavaScript Debug.a.html" />
         <item itemvalue="JavaScript Debug.main.html" />
       </list>
@@ -60,24 +100,64 @@
       <updated>1602993238395</updated>
       <workItem from="1602993239732" duration="2353000" />
       <workItem from="1603004380360" duration="148000" />
-      <workItem from="1603094831945" duration="869000" />
+      <workItem from="1603094831945" duration="2251000" />
+      <workItem from="1603104860336" duration="672000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603095013082">
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603105482905">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603095013082" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603105482905" />
     <state x="360" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1013@0.23.1792.1013" timestamp="1602995161395" />
+    <state x="769" y="464" key="Github.ShareDialog" timestamp="1603095844936">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="769" y="464" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603095844936" />
+    <state x="704" y="269" key="Github.UntrackedFilesDialog" timestamp="1603095868527">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="704" y="269" key="Github.UntrackedFilesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603095868527" />
+    <state width="1771" height="310" key="GridCell.Tab.0.bottom" timestamp="1603105545642">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1771" height="310" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603105545642" />
+    <state width="1771" height="310" key="GridCell.Tab.0.center" timestamp="1603105545641">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1771" height="310" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603105545641" />
+    <state width="1771" height="310" key="GridCell.Tab.0.left" timestamp="1603105545640">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1771" height="310" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603105545640" />
+    <state width="1771" height="310" key="GridCell.Tab.0.right" timestamp="1603105545641">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1771" height="310" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603105545641" />
     <state x="640" y="322" key="SettingsEditor" timestamp="1603095378982">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="640" y="322" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603095378982" />
     <state x="640" y="314" key="SettingsEditor/0.23.1792.1013@0.23.1792.1013" timestamp="1602995744710" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1603095874693">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1603095874693" />
     <state x="790" y="302" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1603095011897">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
