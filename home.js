@@ -65,9 +65,19 @@ function onMessageArrived(message) {
     decode(rec_msg);
 }
 function decode(message) {
+    //指令 code：open1/close1
     const rec_code = JSON.parse(message);
     const code = rec_code.code;
     document.getElementById("rec_msg").value = code;
+    const img1 = document.getElementById('i1');
+    const img2= document.getElementById('i2');
+    const img3 = document.getElementById('i3');
+    switch (code) {
+        case "open1":img1.src ="images/open.png";break;
+        case "close1":img1.src="images/close.png";break;
+        default :break;
+
+    }
 
 }
 function send() {
